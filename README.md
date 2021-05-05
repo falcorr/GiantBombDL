@@ -8,10 +8,8 @@ Requires wget, benefits from ffmpeg, ffprobe, and AtomicParsley
 
 Need to place API key in the code
 
-Verify was working, I think
+Verify was working, I think. Quality fallback and rate-limiting detection too
 
 Minimum / maximum length only a basic implementation, e.g. I believe it's not suited to multi-page results
 
 Metadata editing not implemented
-
-Tries to detect rate-limiting

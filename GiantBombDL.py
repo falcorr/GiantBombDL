@@ -523,6 +523,7 @@ def download():
                 onScreenLog("Error: all qualities unavailable", COLOURS["lightRed"])        
             else:
                 # An accepted quality was found
+                args.verifyRetry = 0
                 while args.verifyRetry >= 0:
                     onScreenLog("Info: {0} quality will be downloaded".format(currentQuality), COLOURS["white"])
                     

@@ -644,7 +644,7 @@ def validateArgs():
     
     if args.fallback != None:
         args.fallback = args.fallback.lower()
-        if args.quality not in ['lower', 'higher', 'low', 'high', 'downgrade', 'upgrade', 'down', 'up']:
+        if args.fallback not in ['lower', 'higher', 'low', 'high', 'downgrade', 'upgrade', 'down', 'up']:
             onScreenLog("Error: invalid fallback, options are \"lower\", \"higher\"", COLOURS["lightRed"])
             return False
     
